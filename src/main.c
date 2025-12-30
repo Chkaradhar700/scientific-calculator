@@ -252,7 +252,7 @@ bool errorInExecution;
 
 int main(int argc, char *argv[])
 {
-	
+	/*
 	char const *literal = "123456789123456789.900000100002";
 	printf("\t%Lf , %lf , %lf", divide(1, 6), PI, EXP);
 	printf("\n\t%.12LF", toDecimal(literal));
@@ -282,7 +282,7 @@ int main(int argc, char *argv[])
 	printf("\n\n\tResults : \"%.50Lf\"", operate(str4));
 	
 	printf("\n\n\t%Lg", operate(FACTORIAL "(" TO_DECIMAL "(1500.00000000000000000000000000000001))"));
-	
+	*/
 
 	/*
 	List *list;
@@ -611,7 +611,7 @@ int main(int argc, char *argv[])
 
 
 
-	/*
+	
 	//Main variables
 	char mode[LENGTH_OF_MODE + 1];
 	char stopMode[LENGTH_OF_MODE + 1];
@@ -858,7 +858,7 @@ int main(int argc, char *argv[])
 	printf("\n");
 	system("pause");
 	return 0;
-	*/
+	
 	
 	
 	
