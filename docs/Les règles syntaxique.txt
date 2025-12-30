@@ -1,0 +1,83 @@
+La vérification syntaxique se reposera sur deux facteurs : le précédent et le suivant de chaque élément. Nous allons aborder cette vérification pour chaque type d'élément(5 types au total). En plus des deux facteurs précités, il nous faudra vérifier que chaque parenthèse ouverte à une parenthèse fermée correspondante et vice versa. Voici les règles relatif à chaque type d'élément :
+1 - LES NOMBRES
+• Précédent
+    Accepté : Opérateurs "/ * u- b- + ^", Séparateur "(", Rien.
+    Refusé : Nombres, Opérateurs "% !", Constantes, Séparateur ")", Fonctions externes.
+
+• Suivant
+    Accepté : Opérateurs "/ * b- + % ! ^", Constantes, Séparateurs "( )", Fonctions externes, Rien.
+    Refusé : Nombres, Opérateur "u-".
+
+2 - LES OPÉRATEURS
+  CATÉGORIE 1 : "/ * ^"
+• Précédent
+    Accepté : Nombres, Opérateurs "% !", Constantes, Séparateur ")".
+    Refusé : Opérateurs "/ * u- b- + ^", Séparateur "(", Fonctions externes, Rien.
+
+• Suivant
+    Accepté : Nombres, Opérateur "u-", Constantes, Séparateur "(", Fonctions externes.
+    Refusé : Opérateurs "/ * b- + % ! ^", Séparateur ")", Rien.
+
+  CATÉGORIE 2 : "b- +"
+• Précédent
+    Accepté : Nombres, Opérateurs "% !", Constantes, Séparateur ")".
+    Refusé : Opérateurs "/ * u- b- + ^", Séparateur "(", Fonctions externes, Rien.
+
+• Suivant
+    Accepté : Nombres, Constantes, Séparateur "(", Fonctions externes.
+    Refusé : Opérateurs "/ * u- b- + % ! ^", Séparateur ")", Rien.
+
+  CATÉGORIE 3 : "u-"
+• Précédent
+    Accepté : Opérateurs "/ * ^", Séparateur "(", Rien.
+    Refusé : Nombres, Opérateurs "u- b- + % !", Constantes, Séparateur ")", Fonctions externes.
+
+• Suivant
+    Accepté : Nombres, Constantes, Séparateur "(", Fonctions externes.
+    Refusé : Opérateurs "/ * u- b- + % ! ^", Séparateur ")", Rien.
+
+  CATÉGORIE 4 : "% !"
+• Précédent
+    Accepté : Nombres, Opérateurs "% !", Constantes, Séparateur ")".
+    Refusé : Opérateurs "/ * u- b- + ^", Séparateur "(", Fonctions externes, Rien.
+
+• Suivant
+    Accepté : Opérateur "/ * b- + % ! ^" , Constantes, Séparateur "( )", Fonctions externes, Rien.
+    Refusé : Nombres, Opérateur "u-".
+
+3 - CONSTANTES
+• Précédent
+    Accepté : Nombres, Opérateurs "/ * u- b- + % ! ^", Constantes, Séparateurs "( )", Rien.
+    Refusé : Fonctions externes.
+
+• Suivant
+    Accepté : Opérateurs "/ * b- + % ! ^", Constantes, Séparateurs "( )", Fonctions externes, Rien.
+    Refusé : Nombres, Opérateur "u-".
+
+4 - SÉPARATEURS
+  CATÉGORIE 1 : "("
+• Précédent
+    Accepté : Nombres, Opérateurs "/ * u- b- + % ! ^", Constantes, Séparateurs "( )", Fonctions externes, Rien.
+    Refusé :.
+
+• Suivant
+    Accepté : Nombres, Opérateur "u-", Constantes, Séparateur "(", Fonctions externes.
+    Refusé : Opérateurs "/ * b- + % ! ^", Séparateur ")", Rien.
+
+  CATÉGORIE 2 : ")"
+• Précédent
+    Accepté : Nombres, Opérateurs "% !", Constantes, Séparateur ")".
+    Refusé : Opérateurs "/ * u- b- + ^", Séparateur "(", Fonctions externes, Rien.
+
+• Suivant
+    Accepté : Opérateurs "/ * b- + % ! ^", Constantes, Séparateurs "( )", Fonctions externes, Rien.
+    Refusé : Nombres, Opérateur "u-".
+
+5 - FONCTIONS EXTERNES
+• Précédent
+    Accepté : Nombres, Opérateurs "/ * u- b- + % ! ^", Constantes, Séparateurs "( )", Rien.
+    Refusé : Fonctions externes.
+
+• Suivant
+    Accepté : Séparateur "(".
+    Refusé : Nombres, Opérateurs "/ * u- b- + % ! ^", Constantes, Séparateur ")", Fonctions externes, Rien.

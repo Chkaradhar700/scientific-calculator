@@ -1,0 +1,7 @@
+L'utilisateur pourra écrire des commandes pour contrôler le programme. On prévoit les commandes suivantes :
+- setMode : Permet à l'utilisateur de choisir un mode précis donné.
+- back : Permet à l'utilisateur de choisir un mode précis donné sauf qu'il sera ramené au niveau de choix directement inférieur à celui où il se trouve actuellement.
+- setPrecision : Permet de définir la précision d'affichage des résultats décimaux.
+- displayInfos : Permet d'afficher des informations sur les valeurs représentables, la précision d'affichage des nombres réels, etc.
+- clear : Permet d'effacer l'écran.
+- exit : Permet d'arrêter le programme et de sortir.
