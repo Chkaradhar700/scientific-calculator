@@ -9,8 +9,6 @@
 
 //NOTE : We will use the "long double" type to represent real numbers and the "long long" type to represent integers.
 
-//#define PI 3.14159265358979323846264338327950288419
-//#define EXP expl(1)
 #define FUNCTION_NAME_SIZE 20
 #define FUNCTION_ARGS_SIZE 10000
 #define MAX_LENGTH_OF_NUMBER 100
@@ -254,7 +252,7 @@ int main(int argc, char *argv[])
 {
 	/*
 	char const *literal = "123456789123456789.900000100002";
-	printf("\t%Lf , %lf , %lf", divide(1, 6), PI, EXP);
+	printf("\t%Lf", divide(1, 6));
 	printf("\n\t%.12LF", toDecimal(literal));
 	printf("\n\t%.12LF", strtold(literal, 0));
 
@@ -611,7 +609,7 @@ int main(int argc, char *argv[])
 
 
 
-	
+	/*
 	//Main variables
 	char mode[LENGTH_OF_MODE + 1];
 	char stopMode[LENGTH_OF_MODE + 1];
@@ -858,7 +856,7 @@ int main(int argc, char *argv[])
 	printf("\n");
 	system("pause");
 	return 0;
-	
+	*/
 	
 	
 	
