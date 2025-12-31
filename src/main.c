@@ -3271,8 +3271,8 @@ void deleteBlock(Block *block)
 		}
 	}
 
-	block = NULL;
 	free(block); //We assume that all "Block" type variable was dynamically created.
+	block = NULL;
 	return;
 }
 
