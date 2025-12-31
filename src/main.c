@@ -1,4 +1,5 @@
 #include "common.h"
+#include "globals.h"
 
 enum Direction
 {
@@ -172,9 +173,6 @@ void c_exit(char *);
 //Tool functions
 void identifyPrimeNumber(char *);
 
-//Global variables
-bool errorInInterpretation;
-bool errorInExecution;
 
 int main(int argc, char *argv[])
 {
