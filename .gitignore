@@ -1,2 +1,11 @@
 .vscode
-src/main
+
+# Build artifacts
+obj/
+calculator
+calculator_tests
+
+# Temporary files
+*.o
+*.out
+*.log
