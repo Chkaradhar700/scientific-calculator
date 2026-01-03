@@ -2,6 +2,10 @@
 #include "common.h"
 #include "utils.h"
 
+/*
+ * Implements auxiliary utilities and tools used in the calculator.
+ */
+
 
 /**
  * This function takes a character string as a parameter. It tries to convert it to an integer. When all is well, this function displays whether the obtained number is prime or not.

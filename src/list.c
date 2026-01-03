@@ -4,6 +4,12 @@
 #include "utils.h"
 #include "tree.h"
 
+/*
+ * Implements linked list functionality for the calculator.
+ * Handles insertion, deletion, traversal, and conversion of operation sequences.
+ */
+
+
 /**
  * This function is used to initialize a list. It return an empty list.
  *

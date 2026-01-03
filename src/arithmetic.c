@@ -3,6 +3,11 @@
 #include "globals.h"
 #include "utils.h"
 
+/*
+ * Implements the core mathematical operations for the calculator.
+ */
+
+
 long double add(long double a, long double b)
 {
 	return a + b;

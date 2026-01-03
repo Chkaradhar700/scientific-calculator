@@ -1,6 +1,11 @@
 #include "tree.h"
 #include "utils.h"
 
+/*
+ * Implements the creation and management of trees for operation hierarchies.
+ */
+
+
 /**
  * This function is used to initialize a tree. It returns the pointer to an empty tree.
  * Note that this function is not written to empty trees. To empty a tree, use the "deleteAllFromTree(...)" function instead.

@@ -3,6 +3,12 @@
 
 #include "common.h"
 
+/*
+ * Declares structures and functions for linked list management.
+ * Provides a foundation for representing and manipulating sequences of operations.
+ */
+
+
 typedef struct OperationObject OperationObject;
 struct OperationObject
 {

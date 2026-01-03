@@ -1,6 +1,11 @@
 #include "common.h"
 #include "utils.h"
 
+/*
+ * Implements general utility functions for the calculator.
+ */
+
+
 /**
  * We use this function to manage the display of errors.
  *

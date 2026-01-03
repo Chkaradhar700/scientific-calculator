@@ -9,6 +9,10 @@
 #include "commands.h"
 #include "tools.h"
 
+/*
+ * Contains the main execution loop of the calculator.
+ * Handles user input, orchestrates modules, and outputs results.
+ */
 
 
 int main(int argc, char *argv[])

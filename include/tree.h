@@ -3,6 +3,11 @@
 
 #include "list.h"
 
+/*
+ * Declares structures and functions for tree-based representations of expressions.
+ */
+
+
 enum Direction
 {
 	left_to_right,

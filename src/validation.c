@@ -2,6 +2,11 @@
 #include "list.h"
 #include "utils.h"
 
+/*
+ * Implements syntax analysis and validation for user input.
+ * Checks the correctness of expressions based on defined rules.
+ */
+
 
 /**
  * This function allows to know if the syntax of a number is valid or not. It checks the nature of the previous and the next of the provided object.

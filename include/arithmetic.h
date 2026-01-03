@@ -1,6 +1,11 @@
 #ifndef ARITHMETIC_H
 #define ARITHMETIC_H
 
+/*
+ * Declares core mathematical operations for the calculator.
+ */
+
+ 
 long double add(long double, long double);
 long double subtract(long double, long double);
 long double multiply(long double, long double);

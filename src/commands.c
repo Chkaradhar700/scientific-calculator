@@ -2,6 +2,10 @@
 #include "commands.h"
 #include "utils.h"
 
+/*
+ * Implements the logic for interpreting and executing user commands.
+ */
+
 
 /**
  * This function allow to know if a character string is a command or not.

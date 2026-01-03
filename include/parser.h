@@ -5,6 +5,11 @@
 #include "list.h"
 #include "tree.h"
 
+/*
+ * Declares functions for transforming user input into internal representations.
+ */
+
+
 struct FunctionInfos
 {
 	char name[FUNCTION_NAME_SIZE];

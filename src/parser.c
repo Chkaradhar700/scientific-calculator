@@ -2,6 +2,10 @@
 #include "utils.h"
 #include "arithmetic.h"
 
+/*
+ * Implements the logic for parsing and managing mathematical expressions.
+ */
+
 
 /**
  * We use this function to retrieve function information contained in a string ("string").  This information is: the name of the function, its first argument and its second argument (if it has two).

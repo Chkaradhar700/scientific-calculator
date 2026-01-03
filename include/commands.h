@@ -1,6 +1,11 @@
 #ifndef COMMANDS_H
 #define COMMANDS_H
 
+/*
+ * Declares the interface for handling user commands.
+ */
+
+
 bool isCommand(char *);
 void runCommand(char *, char *, int *);
 

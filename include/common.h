@@ -10,6 +10,11 @@
 #include <limits.h>
 #include <float.h>
 
+/*
+ * Declares shared definitions used across all modules.
+ */
+
+
 //NOTE : We will use the "long double" type to represent real numbers and the "long long" type to represent integers.
 
 #define FUNCTION_NAME_SIZE 20

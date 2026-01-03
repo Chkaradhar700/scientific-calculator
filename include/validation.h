@@ -3,6 +3,12 @@
 
 #include "list.h"
 
+/*
+ * Declares functions for syntax verification and validation of mathematical expressions.
+ * Ensures input conforms to rules before evaluation.
+ */
+
+
 bool analyzeSyntaxForNumber(OperationObject *);
 bool analyzeSyntaxForOperator(OperationObject *);
 bool analyzeSyntaxForConstant(OperationObject *);
