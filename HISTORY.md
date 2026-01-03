@@ -186,7 +186,7 @@ However, not all user inputs are valid. This made **syntax validation** necessar
 
 Syntax validation starts with the function `stringToList(...)`, which converts a raw string into a list of operation objects.
 
-Then, several functions analyze the syntax rules of the expression. These rules are detailed in a separate document and are based on:
+Then, several functions analyze the syntax rules of the expression. These rules are detailed in the [README](README.md#full-syntax-rules) and are based on:
 
 * the previous element
 * the next element
