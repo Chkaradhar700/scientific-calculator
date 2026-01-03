@@ -6,7 +6,7 @@ This project is a fully-featured calculator designed to handle mathematical expr
 
 Internally, the program transforms user input into structured representations (using lists and trees) before evaluating the result. This architecture allows it to process nested functions, implicit multiplications, and complex operator hierarchies, while ensuring syntax validity and numerical precision.
 
-The README provides full technical documentation about how the calculator works, including the parsing rules, operator priorities, and internal evaluation pipeline. For the project’s history, motivation, and design decisions, see HISTORY.md.
+The README provides full technical documentation about how the calculator works, including the parsing rules, operator priorities, and internal evaluation pipeline. For the project’s history, motivation, and design decisions, see [HISTORY.md](HISTORY.md).
 
 
 ## Quick start
