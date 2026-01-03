@@ -300,5 +300,5 @@ If your contribution modifies parsing rules, operator behavior, or syntax valida
 
 ## License
 
-This project is distributed under the MIT license.
+This project is distributed under the [MIT license](LICENSE).
 
