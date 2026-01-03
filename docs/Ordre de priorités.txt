@@ -1,9 +1,0 @@
-    ! %           -->
-    ^ u-          <--
-    / *           -->
-    + b-          -->
-
-
-
-
-Pour trier les opérateurs d'une expression, on choisit de les regrouper d'abord par groupe(groupe d'opérateurs de même niveau). On regroupe ainsi les opérateurs en quatre(4) groupes. Ensuite on évalue chaque groupe en suivant le sens d'évaluation qui lui est associé. Lors de la phase d'évaluation, on commence évidemment par le groupe de plus grande priorité pour atteindre le groupe de plus petite priorité.
