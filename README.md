@@ -60,18 +60,23 @@ or directly:
 This section shows how the calculator looks and behaves during execution.
 
 ![Basic arithmetic operations](docs/screenshots/basic-arithmetic-operations.png)
+
 *Basic arithmetic operations*
 
 ![Expressions with parentheses and functions](docs/screenshots/expressions-with-parentheses-and-functions.png)
+
 *Expressions with parentheses and functions*
 
 ![Syntax error handling](docs/screenshots/syntax-error-handling.png)
+
 *Syntax error handling*
 
 ![Command usage](docs/screenshots/command-usage.png)
+
 *Command usage*
 
 ![Prime number identification tool](docs/screenshots/prime-number-identification-tool.png)
+
 *Prime number identification tool*
 
 
