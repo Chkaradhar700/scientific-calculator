@@ -289,11 +289,13 @@ There are also several possible extensions, such as adding new mathematical func
 
 If you want to contribute to this project:
 
-1. Fork the repository on GitHub.
-2. Create a new branch for your changes.
-3. Make your changes and test them locally.
-4. Keep commits small and clear when possible.
-5. Open a pull request with a short explanation of what you changed and why.
+1. Check existing issues to see if the problem or feature is already being discussed.
+2. If not, open a new issue and briefly describe what you plan to work on.
+3. Fork the repository on GitHub.
+4. Create a new branch for your changes.
+5. Make your changes and test them locally.
+6. Keep commits small and clear when possible.
+7. Open a pull request with a short explanation of what you changed and why.
 
 If your contribution modifies parsing rules, operator behavior, or syntax validation, please explain the reasoning behind the change, as these parts are tightly coupled and can easily introduce regressions.
 
